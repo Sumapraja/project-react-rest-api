@@ -1,11 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import TodosListPost from './App';
+import Todos from './App';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<TodosListPost />, document.getElementById('root'));
-// ReactDOM.render(<TodosListPost />, document.getElementById('root'));
+ReactDOM.render(<Todos />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
